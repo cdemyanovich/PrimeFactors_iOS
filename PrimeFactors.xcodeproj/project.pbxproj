@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59CFA14713ABDD0B00898D64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFA14613ABDD0B00898D64 /* UIKit.framework */; };
+		59CFA14913ABDD0B00898D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFA14813ABDD0B00898D64 /* Foundation.framework */; };
+		59CFA14B13ABDD0B00898D64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFA14A13ABDD0B00898D64 /* CoreGraphics.framework */; };
+		59CFA15113ABDD0B00898D64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59CFA14F13ABDD0B00898D64 /* InfoPlist.strings */; };
+		59CFA15413ABDD0B00898D64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFA15313ABDD0B00898D64 /* main.m */; };
+		59CFA15713ABDD0C00898D64 /* PrimeFactorsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFA15613ABDD0C00898D64 /* PrimeFactorsAppDelegate.m */; };
+		59CFA15A13ABDD0C00898D64 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59CFA15813ABDD0C00898D64 /* MainWindow.xib */; };
+		59CFA15D13ABDD0C00898D64 /* PrimeFactorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFA15C13ABDD0C00898D64 /* PrimeFactorsViewController.m */; };
+		59CFA16013ABDD0C00898D64 /* PrimeFactorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59CFA15E13ABDD0C00898D64 /* PrimeFactorsViewController.xib */; };
+		59CFA16713ABDD0C00898D64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFA14613ABDD0B00898D64 /* UIKit.framework */; };
+		59CFA16813ABDD0C00898D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFA14813ABDD0B00898D64 /* Foundation.framework */; };
+		59CFA16913ABDD0C00898D64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFA14A13ABDD0B00898D64 /* CoreGraphics.framework */; };
+		59CFA17113ABDD0C00898D64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59CFA16F13ABDD0C00898D64 /* InfoPlist.strings */; };
+		59CFA17413ABDD0C00898D64 /* PrimeFactorsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 59CFA17313ABDD0C00898D64 /* PrimeFactorsTests.h */; };
+		59CFA17613ABDD0C00898D64 /* PrimeFactorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFA17513ABDD0C00898D64 /* PrimeFactorsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59CFA16A13ABDD0C00898D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59CFA13913ABDD0B00898D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59CFA14113ABDD0B00898D64;
+			remoteInfo = PrimeFactors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59CFA14213ABDD0B00898D64 /* PrimeFactors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeFactors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CFA14613ABDD0B00898D64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59CFA14813ABDD0B00898D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59CFA14A13ABDD0B00898D64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59CFA14E13ABDD0B00898D64 /* PrimeFactors-Info.plist */ = {isa = PBXFileReference; path = "PrimeFactors-Info.plist"; sourceTree = "<group>"; };
+		59CFA15013ABDD0B00898D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59CFA15213ABDD0B00898D64 /* PrimeFactors-Prefix.pch */ = {isa = PBXFileReference; path = "PrimeFactors-Prefix.pch"; sourceTree = "<group>"; };
+		59CFA15313ABDD0B00898D64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59CFA15513ABDD0C00898D64 /* PrimeFactorsAppDelegate.h */ = {isa = PBXFileReference; path = PrimeFactorsAppDelegate.h; sourceTree = "<group>"; };
+		59CFA15613ABDD0C00898D64 /* PrimeFactorsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeFactorsAppDelegate.m; sourceTree = "<group>"; };
+		59CFA15913ABDD0C00898D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		59CFA15B13ABDD0C00898D64 /* PrimeFactorsViewController.h */ = {isa = PBXFileReference; path = PrimeFactorsViewController.h; sourceTree = "<group>"; };
+		59CFA15C13ABDD0C00898D64 /* PrimeFactorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeFactorsViewController.m; sourceTree = "<group>"; };
+		59CFA15F13ABDD0C00898D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PrimeFactorsViewController.xib; sourceTree = "<group>"; };
+		59CFA16613ABDD0C00898D64 /* PrimeFactorsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeFactorsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CFA16E13ABDD0C00898D64 /* PrimeFactorsTests-Info.plist */ = {isa = PBXFileReference; path = "PrimeFactorsTests-Info.plist"; sourceTree = "<group>"; };
+		59CFA17013ABDD0C00898D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59CFA17213ABDD0C00898D64 /* PrimeFactorsTests-Prefix.pch */ = {isa = PBXFileReference; path = "PrimeFactorsTests-Prefix.pch"; sourceTree = "<group>"; };
+		59CFA17313ABDD0C00898D64 /* PrimeFactorsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeFactorsTests.h; sourceTree = "<group>"; };
+		59CFA17513ABDD0C00898D64 /* PrimeFactorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeFactorsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59CFA13F13ABDD0B00898D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFA14713ABDD0B00898D64 /* UIKit.framework in Frameworks */,
+				59CFA14913ABDD0B00898D64 /* Foundation.framework in Frameworks */,
+				59CFA14B13ABDD0B00898D64 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CFA16213ABDD0C00898D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFA16713ABDD0C00898D64 /* UIKit.framework in Frameworks */,
+				59CFA16813ABDD0C00898D64 /* Foundation.framework in Frameworks */,
+				59CFA16913ABDD0C00898D64 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59CFA13713ABDD0B00898D64 = {
+			isa = PBXGroup;
+			children = (
+				59CFA14C13ABDD0B00898D64 /* PrimeFactors */,
+				59CFA16C13ABDD0C00898D64 /* PrimeFactorsTests */,
+				59CFA14513ABDD0B00898D64 /* Frameworks */,
+				59CFA14313ABDD0B00898D64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59CFA14313ABDD0B00898D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59CFA14213ABDD0B00898D64 /* PrimeFactors.app */,
+				59CFA16613ABDD0C00898D64 /* PrimeFactorsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59CFA14513ABDD0B00898D64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59CFA14613ABDD0B00898D64 /* UIKit.framework */,
+				59CFA14813ABDD0B00898D64 /* Foundation.framework */,
+				59CFA14A13ABDD0B00898D64 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59CFA14C13ABDD0B00898D64 /* PrimeFactors */ = {
+			isa = PBXGroup;
+			children = (
+				59CFA15513ABDD0C00898D64 /* PrimeFactorsAppDelegate.h */,
+				59CFA15613ABDD0C00898D64 /* PrimeFactorsAppDelegate.m */,
+				59CFA15813ABDD0C00898D64 /* MainWindow.xib */,
+				59CFA15B13ABDD0C00898D64 /* PrimeFactorsViewController.h */,
+				59CFA15C13ABDD0C00898D64 /* PrimeFactorsViewController.m */,
+				59CFA15E13ABDD0C00898D64 /* PrimeFactorsViewController.xib */,
+				59CFA14D13ABDD0B00898D64 /* Supporting Files */,
+			);
+			path = PrimeFactors;
+			sourceTree = "<group>";
+		};
+		59CFA14D13ABDD0B00898D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CFA14E13ABDD0B00898D64 /* PrimeFactors-Info.plist */,
+				59CFA14F13ABDD0B00898D64 /* InfoPlist.strings */,
+				59CFA15213ABDD0B00898D64 /* PrimeFactors-Prefix.pch */,
+				59CFA15313ABDD0B00898D64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59CFA16C13ABDD0C00898D64 /* PrimeFactorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				59CFA17313ABDD0C00898D64 /* PrimeFactorsTests.h */,
+				59CFA17513ABDD0C00898D64 /* PrimeFactorsTests.m */,
+				59CFA16D13ABDD0C00898D64 /* Supporting Files */,
+			);
+			path = PrimeFactorsTests;
+			sourceTree = "<group>";
+		};
+		59CFA16D13ABDD0C00898D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CFA16E13ABDD0C00898D64 /* PrimeFactorsTests-Info.plist */,
+				59CFA16F13ABDD0C00898D64 /* InfoPlist.strings */,
+				59CFA17213ABDD0C00898D64 /* PrimeFactorsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59CFA14113ABDD0B00898D64 /* PrimeFactors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CFA17913ABDD0C00898D64 /* Build configuration list for PBXNativeTarget "PrimeFactors" */;
+			buildPhases = (
+				59CFA13E13ABDD0B00898D64 /* Sources */,
+				59CFA13F13ABDD0B00898D64 /* Frameworks */,
+				59CFA14013ABDD0B00898D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeFactors;
+			productName = PrimeFactors;
+			productReference = 59CFA14213ABDD0B00898D64 /* PrimeFactors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59CFA16513ABDD0C00898D64 /* PrimeFactorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CFA17C13ABDD0C00898D64 /* Build configuration list for PBXNativeTarget "PrimeFactorsTests" */;
+			buildPhases = (
+				59CFA16113ABDD0C00898D64 /* Sources */,
+				59CFA16213ABDD0C00898D64 /* Frameworks */,
+				59CFA16313ABDD0C00898D64 /* Resources */,
+				59CFA16413ABDD0C00898D64 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59CFA16B13ABDD0C00898D64 /* PBXTargetDependency */,
+			);
+			name = PrimeFactorsTests;
+			productName = PrimeFactorsTests;
+			productReference = 59CFA16613ABDD0C00898D64 /* PrimeFactorsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59CFA13913ABDD0B00898D64 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 59CFA13C13ABDD0B00898D64 /* Build configuration list for PBXProject "PrimeFactors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 59CFA13713ABDD0B00898D64;
+			productRefGroup = 59CFA14313ABDD0B00898D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59CFA14113ABDD0B00898D64 /* PrimeFactors */,
+				59CFA16513ABDD0C00898D64 /* PrimeFactorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59CFA14013ABDD0B00898D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFA15113ABDD0B00898D64 /* InfoPlist.strings in Resources */,
+				59CFA15A13ABDD0C00898D64 /* MainWindow.xib in Resources */,
+				59CFA16013ABDD0C00898D64 /* PrimeFactorsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CFA16313ABDD0C00898D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFA17113ABDD0C00898D64 /* InfoPlist.strings in Resources */,
+				59CFA17413ABDD0C00898D64 /* PrimeFactorsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59CFA16413ABDD0C00898D64 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59CFA13E13ABDD0B00898D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFA15413ABDD0B00898D64 /* main.m in Sources */,
+				59CFA15713ABDD0C00898D64 /* PrimeFactorsAppDelegate.m in Sources */,
+				59CFA15D13ABDD0C00898D64 /* PrimeFactorsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CFA16113ABDD0C00898D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFA17613ABDD0C00898D64 /* PrimeFactorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59CFA16B13ABDD0C00898D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59CFA14113ABDD0B00898D64 /* PrimeFactors */;
+			targetProxy = 59CFA16A13ABDD0C00898D64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59CFA14F13ABDD0B00898D64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CFA15013ABDD0B00898D64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59CFA15813ABDD0C00898D64 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CFA15913ABDD0C00898D64 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		59CFA15E13ABDD0C00898D64 /* PrimeFactorsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CFA15F13ABDD0C00898D64 /* en */,
+			);
+			name = PrimeFactorsViewController.xib;
+			sourceTree = "<group>";
+		};
+		59CFA16F13ABDD0C00898D64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CFA17013ABDD0C00898D64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59CFA17713ABDD0C00898D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59CFA17813ABDD0C00898D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		59CFA17A13ABDD0C00898D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeFactors/PrimeFactors-Prefix.pch";
+				INFOPLIST_FILE = "PrimeFactors/PrimeFactors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59CFA17B13ABDD0C00898D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeFactors/PrimeFactors-Prefix.pch";
+				INFOPLIST_FILE = "PrimeFactors/PrimeFactors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		59CFA17D13ABDD0C00898D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrimeFactors.app/PrimeFactors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeFactorsTests/PrimeFactorsTests-Prefix.pch";
+				INFOPLIST_FILE = "PrimeFactorsTests/PrimeFactorsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		59CFA17E13ABDD0C00898D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrimeFactors.app/PrimeFactors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeFactorsTests/PrimeFactorsTests-Prefix.pch";
+				INFOPLIST_FILE = "PrimeFactorsTests/PrimeFactorsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59CFA13C13ABDD0B00898D64 /* Build configuration list for PBXProject "PrimeFactors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CFA17713ABDD0C00898D64 /* Debug */,
+				59CFA17813ABDD0C00898D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59CFA17913ABDD0C00898D64 /* Build configuration list for PBXNativeTarget "PrimeFactors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CFA17A13ABDD0C00898D64 /* Debug */,
+				59CFA17B13ABDD0C00898D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59CFA17C13ABDD0C00898D64 /* Build configuration list for PBXNativeTarget "PrimeFactorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CFA17D13ABDD0C00898D64 /* Debug */,
+				59CFA17E13ABDD0C00898D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59CFA13913ABDD0B00898D64 /* Project object */;
+}
