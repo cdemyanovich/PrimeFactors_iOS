@@ -22,6 +22,7 @@
 		59CFA17113ABDD0C00898D64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59CFA16F13ABDD0C00898D64 /* InfoPlist.strings */; };
 		59CFA17413ABDD0C00898D64 /* PrimeFactorsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 59CFA17313ABDD0C00898D64 /* PrimeFactorsTests.h */; };
 		59CFA17613ABDD0C00898D64 /* PrimeFactorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFA17513ABDD0C00898D64 /* PrimeFactorsTests.m */; };
+		59CFA19113AC476B00898D64 /* PrimeFactors.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFA19013AC476B00898D64 /* PrimeFactors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +40,24 @@
 		59CFA14613ABDD0B00898D64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		59CFA14813ABDD0B00898D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		59CFA14A13ABDD0B00898D64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		59CFA14E13ABDD0B00898D64 /* PrimeFactors-Info.plist */ = {isa = PBXFileReference; path = "PrimeFactors-Info.plist"; sourceTree = "<group>"; };
+		59CFA14E13ABDD0B00898D64 /* PrimeFactors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeFactors-Info.plist"; sourceTree = "<group>"; };
 		59CFA15013ABDD0B00898D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		59CFA15213ABDD0B00898D64 /* PrimeFactors-Prefix.pch */ = {isa = PBXFileReference; path = "PrimeFactors-Prefix.pch"; sourceTree = "<group>"; };
+		59CFA15213ABDD0B00898D64 /* PrimeFactors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrimeFactors-Prefix.pch"; sourceTree = "<group>"; };
 		59CFA15313ABDD0B00898D64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59CFA15513ABDD0C00898D64 /* PrimeFactorsAppDelegate.h */ = {isa = PBXFileReference; path = PrimeFactorsAppDelegate.h; sourceTree = "<group>"; };
+		59CFA15513ABDD0C00898D64 /* PrimeFactorsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeFactorsAppDelegate.h; sourceTree = "<group>"; };
 		59CFA15613ABDD0C00898D64 /* PrimeFactorsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeFactorsAppDelegate.m; sourceTree = "<group>"; };
 		59CFA15913ABDD0C00898D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		59CFA15B13ABDD0C00898D64 /* PrimeFactorsViewController.h */ = {isa = PBXFileReference; path = PrimeFactorsViewController.h; sourceTree = "<group>"; };
+		59CFA15B13ABDD0C00898D64 /* PrimeFactorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeFactorsViewController.h; sourceTree = "<group>"; };
 		59CFA15C13ABDD0C00898D64 /* PrimeFactorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeFactorsViewController.m; sourceTree = "<group>"; };
 		59CFA15F13ABDD0C00898D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PrimeFactorsViewController.xib; sourceTree = "<group>"; };
 		59CFA16613ABDD0C00898D64 /* PrimeFactorsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeFactorsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		59CFA16E13ABDD0C00898D64 /* PrimeFactorsTests-Info.plist */ = {isa = PBXFileReference; path = "PrimeFactorsTests-Info.plist"; sourceTree = "<group>"; };
+		59CFA16E13ABDD0C00898D64 /* PrimeFactorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeFactorsTests-Info.plist"; sourceTree = "<group>"; };
 		59CFA17013ABDD0C00898D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		59CFA17213ABDD0C00898D64 /* PrimeFactorsTests-Prefix.pch */ = {isa = PBXFileReference; path = "PrimeFactorsTests-Prefix.pch"; sourceTree = "<group>"; };
+		59CFA17213ABDD0C00898D64 /* PrimeFactorsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrimeFactorsTests-Prefix.pch"; sourceTree = "<group>"; };
 		59CFA17313ABDD0C00898D64 /* PrimeFactorsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeFactorsTests.h; sourceTree = "<group>"; };
 		59CFA17513ABDD0C00898D64 /* PrimeFactorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeFactorsTests.m; sourceTree = "<group>"; };
+		59CFA18F13AC476B00898D64 /* PrimeFactors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeFactors.h; sourceTree = "<group>"; };
+		59CFA19013AC476B00898D64 /* PrimeFactors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeFactors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				59CFA15C13ABDD0C00898D64 /* PrimeFactorsViewController.m */,
 				59CFA15E13ABDD0C00898D64 /* PrimeFactorsViewController.xib */,
 				59CFA14D13ABDD0B00898D64 /* Supporting Files */,
+				59CFA18F13AC476B00898D64 /* PrimeFactors.h */,
+				59CFA19013AC476B00898D64 /* PrimeFactors.m */,
 			);
 			path = PrimeFactors;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 				59CFA15413ABDD0B00898D64 /* main.m in Sources */,
 				59CFA15713ABDD0C00898D64 /* PrimeFactorsAppDelegate.m in Sources */,
 				59CFA15D13ABDD0C00898D64 /* PrimeFactorsViewController.m in Sources */,
+				59CFA19113AC476B00898D64 /* PrimeFactors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

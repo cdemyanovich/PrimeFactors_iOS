@@ -7,11 +7,26 @@
 //
 
 #import "PrimeFactorsViewController.h"
+#import "PrimeFactors.h"
 
 @implementation PrimeFactorsViewController
 
+@synthesize number;
+@synthesize generateButton;
+@synthesize factorsList;
+
+- (IBAction)generateButtonPressed:(id)sender
+{
+    [number resignFirstResponder];
+    NSArray *factors = [PrimeFactors of:[[number text] intValue]];
+    factorsList.text = [factors componentsJoinedByString:@", "];
+}
+
 - (void)dealloc
 {
+    [number release];
+    [generateButton release];
+    [factorsList release];
     [super dealloc];
 }
 
@@ -25,13 +40,13 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    factorsList.text = @"";
 }
-*/
 
 - (void)viewDidUnload
 {
